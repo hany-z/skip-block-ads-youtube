@@ -2,6 +2,8 @@
 
 <p align="center">YouTube ADS Blocker is a Google Chrome extension that removes the annoying ADS that appears when you try to skip an ADS on YouTube.</p>
 
+![Block ADS Youtube](https://static.javatpoint.com/androidpages/images/how-to-block-youtube-ads-on-android.png)
+
 ## Installation
 
 Follow these simple steps to install the extension:
