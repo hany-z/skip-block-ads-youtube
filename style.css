@@ -83,12 +83,43 @@ a {
      width: 90%;
      margin: 0 auto;
      text-align: center;
-     margin-top: 20px;
+     margin-top: 0px;
 }
 
-.qr-code {
-     width: 100%;
+.qr-code1 {
+     margin: 0 auto;
+     width: 81%;
      height: auto;
+     margin-top: 20px;
+     margin-bottom: 5px;
+}
+
+.qr-code2 {
+     margin: 0 auto;
+     width: 90%;
+     height: auto;
+}
+
+.wallet1 {
+     padding: 8px 20px 8px 20px;
+     margin-top: 20px;
+     background-color: #ff9966;
+     font-size: 14px;
+     color: #fff;
+     border: none;
+     /* border-radius: 5px; */
+     cursor: pointer;
+}
+
+.wallet2 {
+     padding: 8px 20px 8px 20px;
+     margin-top: 20px;
+     background-color: #339966;
+     font-size: 14px;
+     color: #fff;
+     border: none;
+     /* border-radius: 5px; */
+     cursor: pointer;
 }
 
 .back {
