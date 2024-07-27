@@ -1,14 +1,3 @@
-function ajaxGet(url, callback) {
-     var xhr = new XMLHttpRequest();
-     xhr.open("GET", url, true);
-     xhr.onreadystatechange = function () {
-          if (xhr.readyState === 4 && xhr.status === 200) {
-               callback(xhr.responseText);
-          }
-     };
-     xhr.send();
-}
-
 function skipAd() {
      //skip 1
      const skipAdsManual =
@@ -36,19 +25,7 @@ function skipAd() {
      }
 }
 
-function addAds() {
-     if (document.getElementById("middle-row").innerHTML == "") {
-          ajaxGet(
-               "https://dichvu.web2m.com/extension/ads.php",
-               function (response) {
-                    document.getElementById("middle-row").innerHTML = response;
-               },
-          );
-     }
-}
-
 setInterval(() => {
      // console.log("Checking for ads...");
-     addAds();
      skipAd();
 }, 500);
